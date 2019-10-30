@@ -8,8 +8,8 @@ import re
 # logger = logging.getLogger(__name__)
 
 
-class TiebaSpider(scrapy.Spider):
-    name = 'tieba'
+class ImdbSpider(scrapy.Spider):
+    name = 'imdb'
     allowed_domains = ['imdb.cn']
     start_urls = ['http://www.imdb.cn/IMDB250/']
 
